@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator", "SimpleCalculator\SimpleCalculator.csproj", "{12455983-E8ED-4CBE-B8C7-1296A7247E04}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator", "SimpleCalculator\SimpleCalculator\SimpleCalculator.csproj", "{12455983-E8ED-4CBE-B8C7-1296A7247E04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator.UnitTest", "SimpleCalculator.UnitTest\SimpleCalculator.UnitTest.csproj", "{46FAA664-5695-4E14-9E03-4D673A9396EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator.UnitTest", "SimpleCalculator\SimpleCalculator.UnitTest\SimpleCalculator.UnitTest.csproj", "{46FAA664-5695-4E14-9E03-4D673A9396EE}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Delegates", "Delegates", "{7E48FF29-E9EF-42BD-9DFA-5BF417D8E59C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaSystem.Delegates.Before", "PizzaSystem.Delegates.Before\PizzaSystem.Delegates.Before.csproj", "{8B233486-A057-4311-8FBA-AB2C681B425E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaSystem.Delegates.Before", "Delegates\PizzaSystem.Delegates.Before\PizzaSystem.Delegates.Before.csproj", "{8B233486-A057-4311-8FBA-AB2C681B425E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaSystem.Delegates.After", "PizzaSystem.Delegates.After\PizzaSystem.Delegates.After.csproj", "{FB82CBD6-E43A-43ED-948C-755CA5E5CAE9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaSystem.Delegates.After", "Delegates\PizzaSystem.Delegates.After\PizzaSystem.Delegates.After.csproj", "{FB82CBD6-E43A-43ED-948C-755CA5E5CAE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SimpleCalc", "SimpleCalc", "{797F3431-CACE-4FE4-8DE7-AD8A893C2747}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,6 +42,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{12455983-E8ED-4CBE-B8C7-1296A7247E04} = {797F3431-CACE-4FE4-8DE7-AD8A893C2747}
+		{46FAA664-5695-4E14-9E03-4D673A9396EE} = {797F3431-CACE-4FE4-8DE7-AD8A893C2747}
 		{8B233486-A057-4311-8FBA-AB2C681B425E} = {7E48FF29-E9EF-42BD-9DFA-5BF417D8E59C}
 		{FB82CBD6-E43A-43ED-948C-755CA5E5CAE9} = {7E48FF29-E9EF-42BD-9DFA-5BF417D8E59C}
 	EndGlobalSection
